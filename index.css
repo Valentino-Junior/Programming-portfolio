@@ -50,8 +50,12 @@ h1 em{
     text-decoration: underline;
 }
 .education{
-    float: left;
     list-style: none;
+    background-color: cornflowerblue;
+    border-radius: 30px;
+    padding: 20px;
+    width: 250px;
+    font-size: 20px;
     
 }
 .contact1{
@@ -69,7 +73,9 @@ h2{
 .view a{
     text-decoration: none;
     font-weight: bold;  
-    color: tomato;
+    background-color:red;
+    color: black;
+    padding: 8px;
 }
 .view a:hover{
     text-decoration: underline;  
