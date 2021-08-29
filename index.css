@@ -32,6 +32,13 @@ body{
 }
 h1 em{
     background-color: lightslategray;
+    padding: 5px;
+
+}
+.head{
+    background-color: lightslategray;
+    padding: 6px;
+    text-transform: uppercase;
 }
 .back a{
     text-decoration: none;
@@ -47,7 +54,7 @@ h1 em{
     float: left;
     list-style: none;
 }
-.contact{
+.contact1{
     display: flex;
     flex-direction: column;
     align-items: center;
