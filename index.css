@@ -1,12 +1,14 @@
 body{
     margin: 0px;
     padding: 0px;
+}
+.header{
     background-image: url(/images/coding2.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
-    background-position: right;
-
+    background-position: left;
+    color: white;
 }
 .navi{
     display: flex;
@@ -17,17 +19,17 @@ body{
 .navi li{
     list-style: none;
     background-color:lightslategray;
-    padding: 40px 0px;
-    width: 130px;
-    
-
-    
+    padding: 50px 0px;
+    width: 170px;  
 }
 .navi li a{
     text-decoration:none ;
     color: white;
 }
-.navi li:hover{
+.navi li a:hover{
     background-color: black;
-    cursor: pointer;
+    padding: 10px;
+
+
+    
 }
