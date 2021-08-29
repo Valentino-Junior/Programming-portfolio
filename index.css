@@ -3,7 +3,7 @@ body{
     padding: 0px;
 }
 .header{
-    background-image: url(../images/coding2.png);
+    background-image: url(images/coding2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -19,7 +19,7 @@ body{
 .navi li{
     list-style: none;
     background-color:lightslategray;
-    padding: 38px 0px;
+    padding: 34px 0px;
     width: 170px;  
 }
 .navi li a{
@@ -81,4 +81,7 @@ h2{
 }
 .view a:hover{
     text-decoration: underline;  
+}
+.copy{
+    text-align: center;
 }
