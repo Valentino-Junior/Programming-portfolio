@@ -28,8 +28,17 @@ body{
 }
 .navi li a:hover{
     background-color: black;
-    padding: 10px;
-
-
-    
+    padding: 10px;  
+}
+h1 em{
+    background-color: lightslategray;
+}
+.back a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: maroon;
+    font-weight: bold;
+}
+.back a:hover{
+    text-decoration: underline;
 }
