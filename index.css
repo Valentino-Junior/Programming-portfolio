@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navi{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    
+}
+.navi li{
+    list-style: none;
+    background-color:darkgray;
+    padding: 40px 0px;
+    width: 130px;
+    
+
+    
+}
+.navi li a{
+    text-decoration:none ;
+    color: white;
+}
