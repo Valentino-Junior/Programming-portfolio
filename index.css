@@ -50,12 +50,15 @@ h1 em{
     text-decoration: underline;
 }
 .education{
-    position: relative;
     float: left;
     list-style: none;
+    
 }
 .contact1{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.bg{
+    font-size: 24px;
 }
