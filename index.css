@@ -66,3 +66,11 @@ h2{
     font-style: italic;
     font-size: 32px;
 }
+.view a{
+    text-decoration: none;
+    font-weight: bold;  
+    color: tomato;
+}
+.view a:hover{
+    text-decoration: underline;  
+}
