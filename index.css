@@ -3,7 +3,7 @@ body{
     padding: 0px;
 }
 .header{
-    background-image: url(/images/coding2.png);
+    background-image: url(images/coding2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
