@@ -42,3 +42,13 @@ h1 em{
 .back a:hover{
     text-decoration: underline;
 }
+.education{
+    position: relative;
+    float: left;
+    list-style: none;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
