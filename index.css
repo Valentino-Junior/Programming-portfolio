@@ -1,6 +1,12 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-image: url(/images/coding2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: right;
+
 }
 .navi{
     display: flex;
@@ -10,7 +16,7 @@ body{
 }
 .navi li{
     list-style: none;
-    background-color:darkgray;
+    background-color:lightslategray;
     padding: 40px 0px;
     width: 130px;
     
@@ -20,4 +26,8 @@ body{
 .navi li a{
     text-decoration:none ;
     color: white;
+}
+.navi li:hover{
+    background-color: black;
+    cursor: pointer;
 }
