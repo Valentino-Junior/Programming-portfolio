@@ -19,7 +19,7 @@ body{
 .navi li{
     list-style: none;
     background-color:lightslategray;
-    padding: 50px 0px;
+    padding: 40px 0px;
     width: 170px;  
 }
 .navi li a{
@@ -77,7 +77,7 @@ h2{
     font-weight: bold;  
     background-color:red;
     color: black;
-    padding: 8px;
+    padding: 10px;
 }
 .view a:hover{
     text-decoration: underline;  
