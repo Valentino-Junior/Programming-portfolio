@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: lightslategrey;
 }
 .header{
     background-image: url(images/coding2.png);
@@ -9,6 +10,7 @@ body{
     background-attachment: fixed;
     background-position: left;
     color: white;
+
 }
 .navi{
     display: flex;
@@ -61,8 +63,18 @@ h1 em{
 .contact1{
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 100px;
     margin-left: 20px;
+}
+.contact1 a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold; 
+    background-color: black;
+    color: white;
+}
+.contact1 a:hover{
+ text-decoration: underline;   
 }
 .bg{
     font-size: 24px;
@@ -84,4 +96,8 @@ h2{
 }
 .copy{
     text-align: center;
+}
+section{
+    margin: 140px;
+    background-color: whitesmoke;
 }
